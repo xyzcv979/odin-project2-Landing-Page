@@ -1,0 +1,110 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto; 
+    padding: 20px; 
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+  }
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; /* Ensure header takes full width */
+    background-color: #1F2937;
+    color: white;
+}
+
+/* space between list items */
+.header ul {
+    display: flex;    
+    list-style-type: none;
+}
+.header ul li {
+    margin-right: 20px;
+}
+
+.left-header {
+    margin-right: auto; /* Pushes the logo to the left */
+}
+
+.left-header, .right-header {
+    width: 50%;
+    text-align: center; 
+}
+
+
+/* Main body */
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    width: 100%;
+    color: white;
+}
+
+.left-main-content, .right-main-content {
+    text-align: left;
+}
+.left-main-content-title {
+    font-weight: extra-bold;
+    font-size: 48px;
+}
+
+
+.sub-main {
+    background-color: white;
+    width: 100%;
+}
+
+.sub-main-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.sub-main-content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 30px;
+}
+
+.sub-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.sub-main2 {
+    background-color: #E5E7EB;
+    width: 100%;
+}
+.sub-main2-author {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 20px;
+}
+
+.sub-main3 {
+    background-color: white;
+    width: 100%;
+}
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+    width: 100%;
+    color: white;
+  }
